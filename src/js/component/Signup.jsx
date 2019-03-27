@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export default class signup extends React.Component {
+export default class Signup extends React.Component {
 	render() {
 		return (
 			<form>
-				<div classNameName="form-group">
+				<div className="form-group">
 					<label htmlFor="exampleFormControlInput1">
 						Email address
 					</label>
@@ -16,7 +16,7 @@ export default class signup extends React.Component {
 						placeholder="name@example.com"
 					/>
 				</div>
-				<div classNameName="form-group">
+				<div className="form-group">
 					<label htmlFor="exampleFormControlSelect1">
 						Example select
 					</label>
@@ -30,13 +30,13 @@ export default class signup extends React.Component {
 						<option>5</option>
 					</select>
 				</div>
-				<div classNameName="form-group">
+				<div className="form-group">
 					<label htmlFor="exampleFormControlSelect2">
 						Example multiple select
 					</label>
 					<select
 						multiple
-						classNameName="form-control"
+						className="form-control"
 						id="exampleFormControlSelect2">
 						<option>1</option>
 						<option>2</option>
@@ -45,12 +45,12 @@ export default class signup extends React.Component {
 						<option>5</option>
 					</select>
 				</div>
-				<div classNameName="form-group">
+				<div className="form-group">
 					<label htmlFor="exampleFormControlTextarea1">
 						Example textarea
 					</label>
 					<textarea
-						classNameName="form-control"
+						className="form-control"
 						id="exampleFormControlTextarea1"
 						rows="3"
 					/>
